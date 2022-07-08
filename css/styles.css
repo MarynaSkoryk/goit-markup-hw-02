@@ -2,12 +2,13 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
+  --main-background-color: #FFFFFF;
 }
 /*Body*/
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  background-color: #e5e5e5;
+  background-color:var(--main-background-color);
   color: var(--primary-text-color);
 }
 ul,
@@ -16,9 +17,6 @@ a {
   text-decoration: none;
 }
 /*Page-Header*/
-.page-header {
-  background-color: #ffffff;
-}
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -172,4 +170,37 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+}
+
+/*Portfolio*/
+.secondary-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+background-color: background: #F5F4FA;
+color:var(--title-text-color)
+}
+.secondary-button:hover,
+.secondary-button:focus {
+  background-color: var(--accent-text-color);
+  color: #FFFFFF;
+}
+.buttons-nav {
+  background-color: #ffffff;
+}
+/*Наши работы*/
+.work-name {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color:var(--title-text-color);
+}
+.work-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color:var(--primary-text-color);
 }
