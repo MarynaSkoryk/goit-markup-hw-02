@@ -8,6 +8,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-weight: 400;
   background-color:var(--main-background-color);
   color: var(--primary-text-color);
 }
@@ -103,7 +104,6 @@ color:var(--primary-text-color)
   text-transform: uppercase;
 }
 .section-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -129,7 +129,6 @@ color:var(--primary-text-color)
   letter-spacing: 0.03em;
 }
 .position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -157,14 +156,12 @@ footer {
 }
 .address {
   color: #ffffff;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
 }
 .address-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -179,15 +176,13 @@ font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 background-color: background: #F5F4FA;
-color:var(--title-text-color)
+color:var(--title-text-color);
+cursor: pointer;
 }
 .secondary-button:hover,
 .secondary-button:focus {
   background-color: var(--accent-text-color);
   color: #FFFFFF;
-}
-.buttons-nav {
-  background-color: #ffffff;
 }
 /*Наши работы*/
 .work-name {
@@ -198,9 +193,7 @@ letter-spacing: 0.06em;
 color:var(--title-text-color);
 }
 .work-description {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
-color:var(--primary-text-color);
 }
