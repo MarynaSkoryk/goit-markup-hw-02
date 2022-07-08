@@ -84,7 +84,8 @@ color:var(--primary-text-color)
 }
 .button:hover,
 .button:focus {
-  background-color: #188CE8;
+background-color: #188CE8;
+
 /*Наши особенности*/
 .visually-hidden {
   position: absolute;
