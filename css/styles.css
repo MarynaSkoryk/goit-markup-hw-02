@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --main-background-color: #FFFFFF;
+  --logo-color: #000000;
 }
 /*Body*/
 body {
@@ -26,6 +27,7 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  color: var(--logo-color);
 }
 .logo > span {
   color: var(--accent-text-color);
