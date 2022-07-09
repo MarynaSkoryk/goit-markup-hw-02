@@ -3,7 +3,11 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --main-background-color: #FFFFFF;
+  --secondary-background-color: #2F303A;
+  --third-background-color: #F5F4FA;
   --logo-color: #000000;
+  --color-text-white: #FFFFFF;
+  --color-change-button: #188CE8;
 }
 /*Body*/
 body {
@@ -64,8 +68,8 @@ color:var(--primary-text-color)
 }
 /*Hero*/
 .hero {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--secondary-background-color);
+  color: var(--color-text-white);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -75,7 +79,7 @@ color:var(--primary-text-color)
 }
 .button {
   background-color: var(--accent-text-color);
-  color: #ffffff;
+  color: var(--color-text-white);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -86,7 +90,7 @@ color:var(--primary-text-color)
 }
 .button:hover,
 .button:focus {
-background-color: #188CE8;}
+background-color: var(--color-change-button);}
 
 /*Наши особенности*/
  .visually-hidden { 
@@ -123,9 +127,9 @@ overflow: hidden;
   text-align: center;
   letter-spacing: 0.03em;
 }
-/*Наша коменда*/
+/*Наша команда*/
 .section-our-crew {
-  background-color: #f5f4fa;
+  background-color: var(--third-background-color);
 }
 .name {
   color: var(--title-text-color);
@@ -141,10 +145,10 @@ overflow: hidden;
 }
 /*Footer*/
 footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-background-color);
 }
 .logo-footer {
-  color: #ffffff;
+  color: var(--color-text-white);
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -161,7 +165,7 @@ footer {
   color: var(--accent-text-color);
 }
 .address {
-  color: #ffffff;
+  color: var(--color-text-white);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -181,14 +185,14 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
-background-color: background: #F5F4FA;
+background-color: var(--third-background-color);
 color:var(--title-text-color);
 cursor: pointer;
 }
 .secondary-button:hover,
 .secondary-button:focus {
   background-color: var(--accent-text-color);
-  color: #FFFFFF;
+  color: var(--color-text-white);
 }
 /*Наши работы*/
 .work-name {
