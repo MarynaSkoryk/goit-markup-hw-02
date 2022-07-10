@@ -150,6 +150,7 @@ color: var(--title-text-color);
 .work-card {
 background-color: var(--main-background-color);
 list-style: none;}
+
 .name {
   color: var(--title-text-color);
   font-weight: 500;
@@ -196,11 +197,9 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  list-decoration: none;
-  text-decoration: none;
 }
 .address-link:hover,
-.addres-link:focus {
+.address-link:focus {
   color: var(--accent-text-color);
 }
 /*Portfolio*/
@@ -220,6 +219,11 @@ border-radius: 4px;
 .secondary-button:focus {
   background-color: var(--accent-text-color);
   color: var(--color-text-white);
+}
+.all-works {
+  background-color: var(--accent-text-color);
+  color: var(--color-text-white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /*Наши работы*/
 .work-name {
